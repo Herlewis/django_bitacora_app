@@ -1,22 +1,16 @@
-# Registro de Usuarios - Vistas basadas en clases
+# Bitácora de eventos del usuario by dM
 
-Creado por dM
+Un modelo "Bitacora" guardará un log de eventos
+realizados por un usuarios sobre un crud de datos.
+
+Con simples QuerySet's escribimos la data necesaria para crear
+los logs de las acciones del user.
 
 ## Versiones
 ```
 Django==1.8.8
 Python==2.7
 ```
-
-## (Registrar Persona)
-
-Aplicación que sirve para registrar
-personas, almacenar los registros en
-una base de datos y luego consultar
-los mismos. Se veran ejemplos sencillos
-de creación de modelos, vistas basadas
-en clases y la utilización de etiquetas
-con codigo python en las plantillas.
 
 ## Tip
 
@@ -36,9 +30,3 @@ $ python manage.py createsuperuser
 $ python manage.py migrate
 
 $ python manage.py runserver
-
-## Rama messages
-
-El proyecto contiene una rama messages que muestra
-como se envian mensajes usando los métodos de las clases
-genéricas de Django.
